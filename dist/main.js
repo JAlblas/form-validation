@@ -1,1 +1,1 @@
-console.log("HELLO");
+(()=>{"use strict";const t=document.getElementById("email");t.addEventListener("input",(function(e){t.validity.typeMismatch?t.setCustomValidity("I am expecting an e-mail address!"):t.setCustomValidity("")}))})();

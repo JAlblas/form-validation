@@ -12,16 +12,16 @@
         <input type="email" name="email" id="email" required>
 
         <label for="country">Country</label>
-        <input type="country" name="country" id="country">
+        <input type="country" name="country" id="country" required>
 
         <label for="zip">Zip Code</label>
-        <input type="text" name="zip" id="zip">
+        <input type="text" name="zip" id="zip" required pattern="[0-9]*">
 
         <label for="password">Password</label>
-        <input type="password" name="password" id="password">
+        <input type="password" name="password" id="password" required minlength="8">
 
         <label for="confirm-password">Confirm Password</label>
-        <input type="confirm-password" name="confirm-password" id="confirm-password">
+        <input type="confirm-password" name="confirm-password" id="confirm-password" required minlength="8">
 
         <input type="submit" value="Submit">
     </form>
